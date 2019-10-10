@@ -30,7 +30,7 @@ MemoryDenyWriteExecute=true
 PrivateTmp=true
 ProtectHome=true
 RemoveIPC=true
-RestrictSUIDSGID=true
+#RestrictSUIDSGID=true
 
 {% if blackbox_exporter_systemd_version | int >= 232 %}
 AmbientCapabilities=CAP_NET_RAW
